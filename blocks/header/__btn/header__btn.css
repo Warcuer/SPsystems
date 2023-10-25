@@ -1,0 +1,16 @@
+.header__btn {
+  width: 145px;
+  height: 49px;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #006ace;
+  cursor: pointer;
+}
+
+.header__btn:hover {
+  transition: .8s;
+  border: 1px solid #006ace;
+  background-color: #fff;
+  color: #006ace;
+}

@@ -1,0 +1,37 @@
+/* ШРИФТЫ */
+@import url(./vendor/jura.css);
+/* ОСНОВНАЯ СТРАНИЦА */
+@import url(./blocks/page-container/page-container.css);
+/* HEADER */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__list/header__list.css);
+@import url(./blocks/header/__list-item/header__list-item.css);
+@import url(./blocks/header/__btn/header__btn.css);
+@import url(./blocks/header/__contact/header__contact.css);
+@import url(./blocks/header/__phone/header__phone.css);
+/* OUTSOURCING */
+@import url(./blocks/outsourcing/outsourcing.css);
+@import url(./blocks/outsourcing/__title/outsourcing__title.css);
+@import url(./blocks/outsourcing/__subtitle/outsourcing__subtitle.css);
+@import url(./blocks/outsourcing/__list/outsourcing__list.css);
+@import url(./blocks/outsourcing/__list-item/outsourcing__list-item.css);
+@import url(./blocks/outsourcing/__main-illustration/outsourcing__main-illustration.css);
+@import url(./blocks/outsourcing/__partners/outsourcing__partners.css);
+@import url(./blocks/outsourcing/__partner/outsourcing__partner.css);
+@import url(./blocks/outsourcing/__partners-1c/outsourcing__partners-1c.css);
+@import url(./blocks/outsourcing/__partners-rjd/outsourcing__partners-rjd.css);
+@import url(./blocks/outsourcing/__1c-partners/outsourcing__1c-partners.css);
+@import url(./blocks/outsourcing/__rjd-partners/outsourcing__rjd-partners.css);
+/* ABOUT-US */
+@import url(./blocks/about-us/about-us.css);
+@import url(./blocks/about-us/__info-box/about-us__info-box.css);
+@import url(./blocks/about-us/__title/about-us__title.css);
+@import url(./blocks/about-us/__subtitle/about-us__subtitle.css);
+@import url(./blocks/about-us/__discription/about-us__discription.css);
+@import url(./blocks/about-us/__main-illustration/about-us__main-illustration.css);
+@import url(./blocks/about-us/__list/about-us__list.css);
+@import url(./blocks/about-us/__list-item/about-us__list-item.css);
+@import url(./blocks/about-us/__hint/about-us__hint.css);
+@import url(./blocks/about-us/__figurative-connection/about-us__figurative-connection.css);
+@import url(./blocks/about-us/__write-to/about-us__write-to.css);

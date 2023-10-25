@@ -13,21 +13,72 @@
 </head>
 
 <body>
-  <div class="wrapper">
+  <!-- HEADER -->
+  <div class="page-container">
     <header class="header">
-      <img src="./image/Лого.png" alt="Логотип компании">
+      <img class="header__logo" src="./image/Лого.png" alt="Логотип компании">
       <ul class="header__list">
         <li class="header__list-item">О компании</li>
         <li class="header__list-item">Услуги</li>
         <li class="header__list-item">Принцип работы</li>
         <li class="header__list-item">Портфолио</li>
+        <li class="header__list-item"><button class="header__btn">Контакты</button></li>
       </ul>
-      <button>Контакты</button>
-      <div class="header__phone">
-        <a href="tel:+74955325713"></a>
-        <a href="tel:+74997020065"></a>
+
+      <div class="header__contact">
+        <a class="header__phone" href="tel:+74955325713">+7(495)532-57-13</a>
+        <a class="header__phone" href="tel:+74997020065">+7(499)702-00-65</a>
       </div>
     </header>
+    <!-- MAIN CONTENT -->
+    <main class="content">
+      <div class="outsourcing">
+        <h1 class="outsourcing__title">IT-аутсорсинг <br> для вашей органицзации!</h1>
+        <p class="outsourcing__subtitle">Занимайтесь развитием бизнеса, не думая про технические вопросы!</p>
+        <img src="./image/Илл.1.png" alt="Админы" class="outsourcing__main-illustration">
+        <ul class="outsourcing__list">
+          <li class="outsourcing__list-item">Работаем в сфере B2B и B2G с 2013года</li>
+          <li class="outsourcing__list-item">Более 600 проектов по интеграции информационных систем</li>
+          <li class="outsourcing__list-item">Более 50 компаний на полном IT-сопровождении</li>
+          <li class="outsourcing__list-item">Работаем с сетевыми и произодственными организациями</li>
+          <li class="outsourcing__list-item">Имеем собственные сервера в крупных датацентрах Москвы</li>
+          <li class="outsourcing__list-item">Проводим любые работы с оптоволоконными линиями связи</li>
+          <li class="outsourcing__list-item">Выезжаем на объекты за пределы Москвы и МО</li>
+        </ul>
+        <div class="outsourcing__partners">
+          <div class="outsourcing__partner">
+            <p class="outsourcing__partners-1c">Официальный партнёр</p>
+            <img class="outsourcing__1c-partners" src="./image/1С Лого.png" alt="1С">
+          </div>
+          <div class="outsourcing__partner">
+            <p class="outsourcing__partners-rjd">Подрядчик</p>
+            <img class="outsourcing__rjd-partners" src="./image/РЖД Лого.png" alt="РЖД">
+          </div>
+        </div>
+      </div>
+      <div class="about-us">
+        <img class="about-us__main-illustration" src="./image/Илл.2.png" alt="Специалист">
+        <div class="about-us__info-box">
+          <h2 class="about-us__title">Чем занимаются IT-специалисты на аутсорсинге?</h2>
+          <P class="about-us__discription">От закупки картриджей для принтера и коврика для мыши
+            до монтажа волоконно-оптических линий связи,
+            систем видеонаблюдения и внедрения CRM</P>
+          <h3 class="about-us__subtitle">Наши специалисты:</h3>
+          <ul class="about-us__list">
+            <li about-us__list-item>Доступны 7/0, посменно</li>
+            <li about-us__list-item>За 1 час включаются в срочную задачу</li>
+            <li about-us__list-item>Умеют консультировать по вопросвм оборудования и работы ПО</li>
+            <li about-us__list-item>Ежедневно мониторят состояния <span class="about-us__hint">критических
+                сервисов</span>
+            </li>
+            <li about-us__list-item>Своевременно реагируют на инцеденты</li>
+            <li about-us__list-item>Умеют из хаоса создать порядок</li>
+          </ul>
+          <button class="about-us__figurative-connection">Заказать обратный звонок</button>
+          <button class="about-us__write-to">Написать нам</button>
+        </div>
+      </div>
+    </main>
   </div>
 </body>
 

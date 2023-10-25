@@ -1,0 +1,14 @@
+.outsourcing__list-item {
+  font-size: 1.5em;
+  list-style-type: none;
+}
+
+.outsourcing__list-item:before {
+  content: '';
+  background-image: url(../../../image/icon/Маркировка\ списка.png);
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-position: center;
+  padding-right: 25px;
+  color: #006ace;
+}

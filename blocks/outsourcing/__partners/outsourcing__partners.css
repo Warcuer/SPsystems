@@ -1,0 +1,6 @@
+.outsourcing__partners{
+  display: flex;
+  align-items: center;
+  column-gap: 140px;
+  font-size: 1.563em;
+}
