@@ -1,0 +1,11 @@
+.for-business__btn_l{
+  background-color: #006ace;
+  color: #fff;
+}
+
+.for-business__btn_l:hover{
+  transition: .8s;
+  background-color: #fff;
+  border: 2px solid #006ace;
+  color: #006ace;
+}

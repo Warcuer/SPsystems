@@ -5,10 +5,9 @@
 
 .outsourcing__list-item:before {
   content: '';
-  background-image: url(../../../image/icon/Маркировка\ списка.png);
+  background-image: url(../../../image/icon/mark-list1.png);
   background-repeat: no-repeat;
   background-size: 8px;
   background-position: center;
   padding-right: 25px;
-  color: #006ace;
 }

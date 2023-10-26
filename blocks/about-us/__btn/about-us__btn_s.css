@@ -1,0 +1,10 @@
+.about-us__btn_s {
+  background-color: #006ace;
+  color: #fff;
+}
+
+.about-us__btn_s:hover {
+  transition: .8s;
+  background-color: #fff;
+  color: #006ace;
+}

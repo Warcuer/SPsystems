@@ -23,6 +23,13 @@
 @import url(./blocks/outsourcing/__partners-rjd/outsourcing__partners-rjd.css);
 @import url(./blocks/outsourcing/__1c-partners/outsourcing__1c-partners.css);
 @import url(./blocks/outsourcing/__rjd-partners/outsourcing__rjd-partners.css);
+/* BTN */
+@import url(./blocks/btn/__figurative-connection/btn__figurative-connection.css);
+@import url(./blocks/btn/__write-to/btn__write-to.css);
+/* BOLD */
+@import url(./blocks/bold/bold.css);
+/* POSITION-IMG */
+@import url(./blocks/position-img/position-img.css);
 /* ABOUT-US */
 @import url(./blocks/about-us/about-us.css);
 @import url(./blocks/about-us/__info-box/about-us__info-box.css);
@@ -33,5 +40,19 @@
 @import url(./blocks/about-us/__list/about-us__list.css);
 @import url(./blocks/about-us/__list-item/about-us__list-item.css);
 @import url(./blocks/about-us/__hint/about-us__hint.css);
-@import url(./blocks/about-us/__figurative-connection/about-us__figurative-connection.css);
-@import url(./blocks/about-us/__write-to/about-us__write-to.css);
+@import url(./blocks/about-us/__btn/about-us__btn_l.css);
+@import url(./blocks/about-us/__btn/about-us__btn_s.css);
+/* FOR-BUSINESS */
+@import url(./blocks/for-business/for-business.css);
+@import url(./blocks/for-business/__title/for-business__title.css);
+@import url(./blocks/for-business/__subtitle/for-business__subtitle.css);
+@import url(./blocks/for-business/__info-box/for-business__info-box.css);
+@import url(./blocks/for-business/__box/for-business__box.css);
+@import url(./blocks/for-business/__discription/for-business__description.css);
+@import url(./blocks/for-business/__purchase-img/for-business__purchase-img.css);
+@import url(./blocks/for-business/__config-img/for-business__config-img.css);
+@import url(./blocks/for-business/__setup-img/for-business__setup-img.css);
+@import url(./blocks/for-business/__inventory-img/for-business__inventory-img.css);
+@import url(./blocks/for-business/__button/for-business__button.css);
+@import url(./blocks/for-business/__btn/for-business__btn_l.css);
+@import url(./blocks/for-business/__btn/for-business__btn_s.css);

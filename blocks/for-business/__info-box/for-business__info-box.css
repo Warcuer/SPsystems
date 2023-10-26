@@ -1,0 +1,6 @@
+.for-business__info-box{
+  display: flex;
+  width: 75%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
