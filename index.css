@@ -31,6 +31,10 @@
 @import url(./blocks/bold/bold.css);
 /* POSITION-IMG */
 @import url(./blocks/position-img/position-img.css);
+/* ARROW */
+@import url(./blocks/arrow/arrow.css);
+@import url(./blocks/arrow/__left/arrow__left.css);
+@import url(./blocks/arrow/__right/arrow__right.css);
 /* ABOUT-US */
 @import url(./blocks/about-us/about-us.css);
 @import url(./blocks/about-us/__info-box/about-us__info-box.css);
@@ -84,3 +88,9 @@
 @import url(./blocks/work/__button/work__button.css);
 @import url(./blocks/work/__btn/work__btn_l.css);
 @import url(./blocks/work/__btn/work__btn_s.css);
+/* CLIENTS */
+@import url(./blocks/clients/clients.css);
+@import url(./blocks/clients/__title/clients__title.css);
+@import url(./blocks/clients/__subtitle/clients__subtitle.css);
+@import url(./blocks/clients/__gallery/clients__gallery.css);
+@import url(./blocks/clients/__img/clients__img.css);

@@ -1,0 +1,5 @@
+.clients__gallery {
+  display: flex;
+  overflow: hidden;
+  transition: transform 3s linear;
+}

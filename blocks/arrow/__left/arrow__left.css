@@ -1,0 +1,9 @@
+.arrow__left{
+  position: absolute;
+  left: 20%;
+  bottom: 20%;
+  padding: 10px;
+  background-image: url(../../../image/icon/left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
