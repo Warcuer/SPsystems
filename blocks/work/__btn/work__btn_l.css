@@ -1,0 +1,10 @@
+.work__btn_l {
+  background-color: #ffd05e;
+}
+
+.work__btn_l:hover {
+  transition: .8s;
+  background-color: #fff;
+  border: 2px solid #ffd05e;
+  color: #ffd05e;
+}

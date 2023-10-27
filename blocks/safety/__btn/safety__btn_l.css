@@ -1,0 +1,11 @@
+.safety__btn_l{
+  color: #fff;
+  background-color: #006ace;
+}
+
+.safety__btn_l:hover{
+  transition: .8s;
+  background-color: #fff;
+  border: 2px solid #006ace;
+  color: #006ace;
+}

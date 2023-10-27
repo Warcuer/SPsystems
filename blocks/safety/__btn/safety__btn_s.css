@@ -1,0 +1,12 @@
+.safety__btn_s{
+  background-color: #454545;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.safety__btn_s:hover{
+  transition: .8s;
+  background-color: #fff;
+  border:none;
+  color: #454545;
+}

@@ -1,0 +1,12 @@
+.safety {
+  width: 100%;
+  position: relative;
+  background-color: #454545;
+  display: flex;
+  align-items: center;
+  height: 700px;
+  color: #fff;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}

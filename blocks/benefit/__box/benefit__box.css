@@ -1,0 +1,10 @@
+.benefit__box{
+  border: 4px solid #4491db;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 435px;
+  padding: 1em;
+}

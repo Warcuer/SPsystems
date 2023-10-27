@@ -1,5 +1,6 @@
 /* ШРИФТЫ */
-@import url(./vendor/jura.css);
+@import url(./vendor/fonts/jura.css);
+@import url(./vendor/fonts/myriadpro.css);
 /* ОСНОВНАЯ СТРАНИЦА */
 @import url(./blocks/page-container/page-container.css);
 /* HEADER */
@@ -56,3 +57,30 @@
 @import url(./blocks/for-business/__button/for-business__button.css);
 @import url(./blocks/for-business/__btn/for-business__btn_l.css);
 @import url(./blocks/for-business/__btn/for-business__btn_s.css);
+/* SAFETY */
+@import url(./blocks/safety/safety.css);
+@import url(./blocks/safety/__title/safety__title.css);
+@import url(./blocks/safety/__subtitle/safety__subtitle.css);
+@import url(./blocks/safety/__info-box/safety__info-box.css);
+@import url(./blocks/safety/__list/safety__list.css);
+@import url(./blocks/safety/__main-illustration/safety__main-illustration.css);
+@import url(./blocks/safety/__list-item/safety__list-item.css);
+@import url(./blocks/safety/__hint/safety__hint.css);
+@import url(./blocks/safety/__button/safety__button.css);
+@import url(./blocks/safety/__btn/safety__btn_l.css);
+@import url(./blocks/safety/__btn/safety__btn_s.css);
+/* BENEFIT */
+@import url(./blocks/benefit/benefit.css);
+@import url(./blocks/benefit/__title/benefit__title.css);
+@import url(./blocks/benefit/__subtitle/benefit__subtitle.css);
+@import url(./blocks/benefit/__info-box/benefit__info-box.css);
+@import url(./blocks/benefit/__box/benefit__box.css);
+@import url(./blocks/benefit/__img/benefit__img.css);
+@import url(./blocks/benefit/__description/benefit__description.css);
+/* WORK */
+@import url(./blocks/work/work.css);
+@import url(./blocks/work/__title/work__title.css);
+@import url(./blocks/work/__main-illustrtion/work__main-illustration.css);
+@import url(./blocks/work/__button/work__button.css);
+@import url(./blocks/work/__btn/work__btn_l.css);
+@import url(./blocks/work/__btn/work__btn_s.css);

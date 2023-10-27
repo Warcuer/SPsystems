@@ -1,5 +1,5 @@
 .page-container {
-  max-width: 100%;
+  max-width: 1920px;
   box-sizing: border-box;
   background-color: #ffffff;
   font-family: 'Jura', Arial, sans-serif;
@@ -9,4 +9,5 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  margin: 0 auto;
 }
