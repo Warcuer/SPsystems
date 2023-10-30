@@ -33,8 +33,10 @@
 @import url(./blocks/position-img/position-img.css);
 /* ARROW */
 @import url(./blocks/arrow/arrow.css);
-@import url(./blocks/arrow/__left/arrow__left.css);
-@import url(./blocks/arrow/__right/arrow__right.css);
+@import url(./blocks/arrow/__left/arrow__left-clients.css);
+@import url(./blocks/arrow/__right/arrow__right-clients.css);
+@import url(./blocks/arrow/__left/arrow__left-portfolio.css);
+@import url(./blocks/arrow/__right/arrow__right-portfolio.css);
 /* ABOUT-US */
 @import url(./blocks/about-us/about-us.css);
 @import url(./blocks/about-us/__info-box/about-us__info-box.css);
@@ -94,3 +96,7 @@
 @import url(./blocks/clients/__subtitle/clients__subtitle.css);
 @import url(./blocks/clients/__gallery/clients__gallery.css);
 @import url(./blocks/clients/__img/clients__img.css);
+/* PORTFOLIO */
+@import url(./blocks/portfolio/portfolio.css);
+@import url(./blocks/portfolio/__title/portfolio__title.css);
+@import url(./blocks/portfolio/__gallery/portfolio__gallery.css);

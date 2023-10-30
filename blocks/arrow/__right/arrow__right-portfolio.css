@@ -1,9 +1,9 @@
-.arrow__right {
+.arrow__right-portfolio {
   position: absolute;
   right: 20%;
   bottom: 20%;
   padding: 10px;
-  background-image: url(../../../image/icon/right.png);
+  background-image: url(../../../image/icon/arrow-portfolioRight.png);
   background-repeat: no-repeat;
   background-position: center;
 }

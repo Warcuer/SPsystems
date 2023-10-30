@@ -1,7 +1,6 @@
 const logoContainer = document.querySelector('.clients__gallery');
-const leftArrow = document.querySelector('.arrow__left');
-const rightArrow = document.querySelector('.arrow__right');
-const autoScrollButton = document.querySelector('.auto-scroll-button');
+const leftArrow = document.querySelector('.arrow__left-clients');
+const rightArrow = document.querySelector('.arrow__right-clients');
 let scrollPosition = 0;
 let visibleLogos = 5; // Начальное количество видимых логотипов
 let totalLogos = 0; // Общее количество логотипов
@@ -35,7 +34,7 @@ function createLogoElements() {
     logoImg.alt = 'Company Logo';
 
     logoImg.classList.add('clients__img', `clients__img${i}`);
-    // logoImg.style.opacity = 1;
+    logoImg.style.opacity = 1;
 
     logoContainer.appendChild(logoImg);
 
@@ -84,14 +83,6 @@ leftArrow.addEventListener('click', () => {
 rightArrow.addEventListener('click', () => {
   stopAutoScroll();
   scrollGallery(1);
-});
-
-autoScrollButton.addEventListener('click', () => {
-  if (!isAutoScrolling) {
-    startAutoScroll();
-  } else {
-    stopAutoScroll();
-  }
 });
 
 // Инициализация галереи
