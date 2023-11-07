@@ -100,3 +100,20 @@
 @import url(./blocks/portfolio/portfolio.css);
 @import url(./blocks/portfolio/__title/portfolio__title.css);
 @import url(./blocks/portfolio/__gallery/portfolio__gallery.css);
+/* CONTACT */
+@import url(./blocks/contact/contact.css);
+@import url(./blocks/contact/__title/contact__title.css);
+@import url(./blocks/contact/__box/contact__box.css);
+@import url(./blocks/contact/__phone/contact__phone.css);
+@import url(./blocks/contact/__number/contact__number.css);
+@import url(./blocks/contact/__mail/contact__mail.css);
+@import url(./blocks/contact/__maps/contact__maps.css);
+@import url(./blocks/contact/__address/contact__address.css);
+@import url(./blocks/contact/__button/contact__button.css);
+@import url(./blocks/contact/__btn/contact__btn_l.css);
+@import url(./blocks/contact/__btn/contact__btn_s.css);
+/* FOOTER */
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__policy/footer__policy.css);
+@import url(./blocks/footer/__info/footer__info.css);
+@import url(./blocks/footer/__img/footer__img.css);

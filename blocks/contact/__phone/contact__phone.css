@@ -1,0 +1,8 @@
+.contact__phone::before {
+  content: '';
+  background-image: url(../../../image/icon/phone-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 32px;
+}

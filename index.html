@@ -8,6 +8,8 @@
   <link rel="icon" href="./image/favicon/favicon-32x32.png">
   <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./index.css">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=e0ee785f-93a9-4199-b0fc-af5687bf568a" type="text/javascript"></script>
+  <script src="icon_customImage.js" type="text/javascript"></script>
   <script src="./logoWoks.js" defer></script>
   <title>SP Systems</title>
 </head>
@@ -104,7 +106,8 @@
         </div>
         <div class="for-busines__button">
           <button class="btn__figurative-connection for-business__btn_l">Заказать обратный звонок</button>
-          <button class="btn__write-to for-business__btn_s">Написать нам</button></div>
+          <button class="btn__write-to for-business__btn_s">Написать нам</button>
+        </div>
       </section>
       <section class="safety">
         <div class="safety__info-box">
@@ -172,9 +175,30 @@
         </div>
         <div class="arrow arrow__right-portfolio" onclick="scrollGallery(1)"></div>
       </section>
+      <section class="contact">
+        <div class="contact__box">
+          <h2 class="contact__title">Контакты</h2>
+          <div class="contact__phone">
+            <a href="tel:74955325713" class="contact__number">+7(495)532-57-13</a>
+            <a href="tel:74997020065" class="contact__number">+7(499)702-00-65</a>
+          </div>
+          <a href="mailto:info@spsyst.com" class="contact__mail">info@spsyst.com</a>
+          <div class="contact__address">Кратово, ул.Горького д.4</div>
+        </div>
+        <div id="map" class="contact__maps"></div>
+        <div class="contact__button">
+          <button class="btn__figurative-connection contact__btn_l">Заказать обратный звонок</button>
+          <button class="btn__write-to contact__btn_s">Написать нам</button>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <a href="" class="footer__policy">Политика конфиденциальности</a>
+      <img src="./image/logo-footer.png" alt="спсистемс" class="footer__icon">
+      <p class="footer__info">&#169; 2023 ООО"СП Системс"</p>
+    </footer>
   </div>
-  
+
 </body>
 
 </html>
