@@ -1,0 +1,10 @@
+.contact__box {
+  width: 480px;
+  margin-top: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  row-gap: 75px;
+}

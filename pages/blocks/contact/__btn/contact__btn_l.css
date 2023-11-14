@@ -1,0 +1,11 @@
+.contact__btn_l {
+  color: #fff;
+  background-color: #006ace;
+}
+
+.contact__btn_l:hover {
+  background-color: #fff;
+  transition: .8s;
+  color: #006ace;
+  border: 1px solid #006ace;
+}

@@ -1,0 +1,4 @@
+.red-star::before {
+  content: '*';
+  color: red;
+}

@@ -1,0 +1,20 @@
+.popup__close {
+  background-color: transparent;
+  background-image: url(../../../image/icon/colse.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  height: 32px;
+  opacity: 1;
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  transition: opacity .6s ease-in;
+  width: 32px;
+}
+
+.popup__close:hover{
+  transition: .8s;
+  opacity: .5;
+}

@@ -1,0 +1,15 @@
+.contact__mail {
+  font-size: 1.813em;
+  text-decoration: none;
+  color: #000;
+}
+
+.contact__mail:before {
+  content: '';
+  background-image: url(../../../image/icon/mail-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 32px;
+  margin-right: 40px;
+}

@@ -1,0 +1,11 @@
+.about-us__list-item {}
+
+.about-us__list-item::before {
+  content: '';
+  display: inline-block;
+  background-image: url(../../../image/icon/mark-list3.png);
+  background-repeat: no-repeat;
+  background-size: 8px;
+  padding-right: 20px;
+  height: 12px;
+}

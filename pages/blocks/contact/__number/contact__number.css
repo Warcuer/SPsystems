@@ -1,0 +1,9 @@
+.contact__number {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.813em;
+  margin-left: 40px;
+}
+.contact__number:last-child{
+  margin-left: 104px;
+}

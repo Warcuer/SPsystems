@@ -1,0 +1,14 @@
+.popup-callback__policy{
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.popup-callback__policy > span{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.popup-callback__policy > span:hover{
+  transition: .8s;
+  color: #808080;
+}

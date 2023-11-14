@@ -1,0 +1,9 @@
+.benefit__info-box {
+  column-gap: 60px;
+  display: flex;
+  width: 800px;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+  margin: 0 0 50px 0;
+}

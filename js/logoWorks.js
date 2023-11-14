@@ -3,26 +3,26 @@ const leftArrow = document.querySelector('.arrow__left-clients');
 const rightArrow = document.querySelector('.arrow__right-clients');
 let scrollPosition = 0;
 let visibleLogos = 5; // Начальное количество видимых логотипов
-let totalLogos = 0; // Общее количество логотипов
+let totalLogos = 14; // Общее количество логотипов
 let currentIndex = 0; // Индекс текущего видимого логотипа
 let autoScrollInterval; // Интервал автоматической прокрутки
 let isAutoScrolling = true; // Флаг для автоматической прокрутки
 
 const companyLogos = [
-  './image/logo/company1.png',
-  './image/logo/company2.png',
-  './image/logo/company3.png',
-  './image/logo/company4.png',
-  './image/logo/company5.png',
+  '../image/logo/company1.png',
+  '../image/logo/company2.png',
+  '../image/logo/company3.png',
+  '../image/logo/company4.png',
+  '../image/logo/company5.png',
   // './image/logo/company6.png',
-  './image/logo/company7.png',
-  './image/logo/company8.png',
-  './image/logo/company9.png',
-  './image/logo/company10.png',
-  './image/logo/company11.png',
-  './image/logo/company12.png',
-  './image/logo/company13.png',
-  './image/logo/company14.png',
+  '../image/logo/company7.png',
+  '../image/logo/company8.png',
+  '../image/logo/company9.png',
+  '../image/logo/company10.png',
+  '../image/logo/company11.png',
+  '../image/logo/company12.png',
+  '../image/logo/company13.png',
+  '../image/logo/company14.png',
 ];
 
 function createLogoElements() {

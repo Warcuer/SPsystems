@@ -1,0 +1,13 @@
+.contact__address {
+  font-size: 1.813em;
+}
+
+.contact__address:before {
+  content: '';
+  background-image: url(../../../image/icon/address-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 28px;
+  margin-right: 52px;
+}

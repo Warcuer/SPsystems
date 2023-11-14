@@ -37,6 +37,8 @@
 @import url(./blocks/arrow/__right/arrow__right-clients.css);
 @import url(./blocks/arrow/__left/arrow__left-portfolio.css);
 @import url(./blocks/arrow/__right/arrow__right-portfolio.css);
+/* RED-STAR */
+@import url(./blocks/red-star/red-star.css);
 /* ABOUT-US */
 @import url(./blocks/about-us/about-us.css);
 @import url(./blocks/about-us/__info-box/about-us__info-box.css);
@@ -117,3 +119,26 @@
 @import url(./blocks/footer/__policy/footer__policy.css);
 @import url(./blocks/footer/__info/footer__info.css);
 @import url(./blocks/footer/__img/footer__img.css);
+/* POPUP */
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_open/popup_open.css);
+@import url(./blocks/popup/__case/popup__case.css);
+@import url(./blocks/popup/__close/popup__close.css);
+@import url(./blocks/popup/__input/popup__input.css);
+@import url(./blocks/popup/__case/popup__case-callback.css);
+/* POPUP-CALLBACK */
+@import url(./blocks/popup-callback/popup-callback.css);
+@import url(./blocks/popup-callback/__title/popup-callback__title.css);
+@import url(./blocks/popup-callback/__box/popup-callback__box.css);
+@import url(./blocks/popup-callback/__input-box/popup-callback__input-box.css);
+@import url(./blocks/popup-callback/__appellation/popup-callback__appellation.css);
+@import url(./blocks/popup-callback/__name/popup-callback__name.css);
+@import url(./blocks/popup-callback/__phone/popup-callback__phone.css);
+@import url(./blocks/popup-callback/__email/popup-callback__email.css);
+@import url(./blocks/popup-callback/__convenient/popup-callback__cenveient.css);
+@import url(./blocks/popup-callback/__company/popup-callback__company.css);
+@import url(./blocks/popup-callback/__policy/popup-callback__policy.css);
+@import url(./blocks/popup-callback/__chekbox/popup-callback__chekbox.css);
+@import url(./blocks/popup-callback/__confirm/popup-callback__confirm.css);
+@import url(./blocks/popup-callback/__btn/popup-callback__btn.css);
+@import url(./blocks/popup-callback/__img/popup-callback__img.css);

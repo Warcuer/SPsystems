@@ -1,0 +1,12 @@
+.header__list-item:after{
+  content: '';
+  background-image: url(../../../image/icon/galochka.png);
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: center;
+  padding: 10px;
+}
+
+.header__list-item:last-child:after{
+  padding: 0;
+}

@@ -1,0 +1,20 @@
+.popup-callback__btn {
+  height: 2em;
+  position: absolute;
+  bottom: 20px;
+  left: 380px;
+  width: 220px;
+  border: none;
+  border-radius: 25px;
+  background-color: #006ace;
+  color: #fff;
+  font-size: 1.875em;
+  font-weight: 700;
+}
+
+.popup-callback__btn:hover {
+  transition: .8s;
+  color: #006ace;
+  border: 1px solid #006ace;
+  background-color: #fff;
+}
