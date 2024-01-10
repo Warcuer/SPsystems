@@ -7,16 +7,18 @@
 }
 
 .header__side-menu:checked~.header__hamb .header__hamb-line {
-  background: #fff;
-  /* background-color: #006ace; */
+  /* transition: .2s;
+  background-color: transparent; */
 }
 
 .header__side-menu:checked~.header__hamb .header__hamb-line:before {
-  transform: rotate(-45deg);
-  top: 0;
+  transform: rotate(45deg);
+  right: 12px;
+  width: 65%;
 }
 
 .header__side-menu:checked~.header__hamb .header__hamb-line:after {
-  transform: rotate(45deg);
-  top: 0;
+  transform: rotate(-45deg);
+  right: 12px;
+  width: 65%;
 }

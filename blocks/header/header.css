@@ -31,13 +31,15 @@
   .header {
     height: 50px;
     background-color: #ffffff;
-    position: sticky;
+    /* position: sticky; */
     /* top: 25px; */
     width: 100%;
   }
 
   .header a {
+    list-style-type: none;
+    text-decoration: none;
     background-color: transparent;
-    color: #006ace;
+    color: #000000;
   }
 }

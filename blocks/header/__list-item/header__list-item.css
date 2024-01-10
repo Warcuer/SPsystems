@@ -10,3 +10,8 @@
 .header__list-item:last-child:after{
   padding: 0;
 }
+
+.header__list-item a:hover{
+  transition: .8s;
+  color:#006ace;
+}

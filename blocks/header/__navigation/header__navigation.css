@@ -1,17 +1,19 @@
 @media (max-width: 900px) {
   .header__navigation {
+    z-index: 1;
     max-height: none;
-    top: 25px;
+  
     position: relative;
     float: left;
     width: fit-content;
   }
 
   .header__navigation {
-    width: 30%;
-    height: 100%;
-    margin-left: 60px;
-    padding-top: 60px;
+    width: auto;
+    height: auto;
+    border-bottom-right-radius: 20px;
+    padding-left: 20px;
+    padding-top: 230px;
     position: fixed;
     background-color: #ffffff;
     overflow: hidden;
@@ -29,10 +31,8 @@
   .header__navigation .menu-wrap__list .menu-wrap__list-item a {
     display: inline-block;
     padding: 12px;
-    color: #54a5ec;
+    color: #000000;
     text-decoration: none;
     letter-spacing: 0.05em;
   }
-
-
 }
