@@ -9,16 +9,17 @@
 .header__side-menu:checked~.header__hamb .header__hamb-line {
   /* transition: .2s;
   background-color: transparent; */
+  width: 16px;
 }
 
 .header__side-menu:checked~.header__hamb .header__hamb-line:before {
   transform: rotate(45deg);
-  right: 12px;
-  width: 65%;
+  right: 6px;
+  width: 80%;
 }
 
 .header__side-menu:checked~.header__hamb .header__hamb-line:after {
   transform: rotate(-45deg);
-  right: 12px;
-  width: 65%;
+  right: 6px;
+  width: 80%;
 }

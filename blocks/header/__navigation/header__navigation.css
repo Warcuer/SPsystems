@@ -1,11 +1,10 @@
 @media (max-width: 900px) {
-  .header__navigation {
+  .header__navigation.show {
     z-index: 1;
     max-height: none;
-  
-    position: relative;
     float: left;
     width: fit-content;
+    transform: translateX(0);
   }
 
   .header__navigation {
@@ -20,8 +19,9 @@
   }
 
   .header__navigation {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
     max-height: 0;
-    transition: max-height .5s ease-out;
   }
 
   .header__navigation .menu-wrap__list {

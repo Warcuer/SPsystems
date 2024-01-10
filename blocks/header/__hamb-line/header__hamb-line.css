@@ -14,15 +14,15 @@
     display: block;
     height: 100%;
     position: absolute;
-    transition: all .2s ease-out;
+    transition: all .2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     width: 100%;
   }
 
   .header__hamb-line:before {
-    top: 5px;
+    top: 4px;
   }
 
   .header__hamb-line:after {
-    top: -5px;
+    top: -4px;
   }
 }
