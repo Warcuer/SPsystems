@@ -1,6 +1,28 @@
-.for-business__info-box{
+.for-business__info-box {
   display: flex;
   width: 75%;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+@media (max-width: 1601px) {
+  .for-business__info-box {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1281px) {
+  .for-business__info-box {
+    width: 80%;
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .for-business__info-box {
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
 }

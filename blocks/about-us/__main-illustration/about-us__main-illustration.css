@@ -1,3 +1,25 @@
 .about-us__main-illustration{
-  
+  position: absolute;
+  left: 250px;
+  top: 200px;
+}
+
+@media (max-width: 1601px) {
+  .about-us__main-illustration{
+    left: 100px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .about-us__main-illustration{
+    left: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-us__main-illustration{
+    position: relative;
+    top: 0px;
+    left: 100px;
+  }
 }

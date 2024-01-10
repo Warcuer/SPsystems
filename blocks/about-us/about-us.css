@@ -1,4 +1,5 @@
 .about-us {
+  position: relative;
   width: 100%;
   height: 800px;
   display: flex;
@@ -7,4 +8,17 @@
   align-items: center;
   background-color: #006ace;
   color: #fff;
+}
+
+@media (max-width:1281px) {
+  .about-us {
+    height: 700px;
+  }
+}
+
+@media (max-width:1024px) {
+  .about-us {
+    height: 950px;
+    flex-direction: column;
+  }
 }

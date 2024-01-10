@@ -12,22 +12,42 @@
     type="text/javascript"></script>
   <script src="./js/icon_customImage.js" type="text/javascript"></script>
   <script src="./js/logoWorks.js" defer></script>
+  <script src="./js/popup.js" defer></script>
   <title>SP Systems</title>
 </head>
 
 <body>
   <div class="page-container">
+    <!-- MOBILE-MENU -->
+    <!-- <div class="menu-wrap">
+      <img class="menu-wrap__logo" src="./image/logo-header.png" alt="Логотип компании">
+      
+      <nav class="menu-wrap__navigation">
+        <p class="menu-wrap__menu">Меню</p>
+        <ul class="menu-wrap__list">
+          <li class="menu-wrap__list-item"><a href="#">О компании</a></li>
+          <li class="menu-wrap__list-item"><a href="#">Услуги</a></li>
+          <li class="menu-wrap__list-item"><a href="#">Принцип работы</a></li>
+          <li class="menu-wrap__list-item"><a href="#">Портфолио</a></li>
+          <li class="menu-wrap__list-item"><button class="menu-wrap__btn">Контакты</button></li>
+        </ul>
+      </nav>
+    </div> -->
     <!-- HEADER -->
     <header class="header">
       <img class="header__logo" src="./image/logo-header.png" alt="Логотип компании">
-      <ul class="header__list">
-        <li class="header__list-item">О компании</li>
-        <li class="header__list-item">Услуги</li>
-        <li class="header__list-item">Принцип работы</li>
-        <li class="header__list-item">Портфолио</li>
-        <li class="header__list-item"><button class="header__btn">Контакты</button></li>
-      </ul>
-
+      <!-- HAMB ICON -->
+      <input class="header__side-menu" type="checkbox" id="side-menu" />
+      <label class="header__hamb" for="side-menu"><span class="header__hamb-line"></span></label>
+      <nav class="header__navigation">
+        <ul class="header__list">
+          <li class="header__list-item"><a href="#">О компании</a></li>
+          <li class="header__list-item"><a href="#">Услуги</a></li>
+          <li class="header__list-item"><a href="#">Принцип работы</a></li>
+          <li class="header__list-item"><a href="#">Портфолио</a></li>
+          <li class="header__list-item"><button class="header__btn">Контакты</button></li>
+        </ul>
+      </nav>
       <div class="header__contact">
         <a class="header__phone" href="tel:+74955325713">+7(495)532-57-13</a>
         <a class="header__phone" href="tel:+74997020065">+7(499)702-00-65</a>
@@ -60,12 +80,12 @@
         </div>
       </section>
       <section class="about-us">
-        <img class="about-us__main-illustration" src="./image/ill2.png" alt="Специалист">
         <div class="about-us__info-box">
           <h2 class="about-us__title">Чем занимаются IT-специалисты на аутсорсинге?</h2>
           <P class="about-us__discription">От закупки картриджей для принтера и коврика для мыши
             до монтажа волоконно-оптических линий связи,
             систем видеонаблюдения и внедрения CRM</P>
+          <img class="about-us__main-illustration" src="./image/ill2.png" alt="Специалист">
           <h3 class="about-us__subtitle">Наши специалисты:</h3>
           <ul class="about-us__list">
             <li class="about-us__list-item">Доступны 7/0, посменно</li>
@@ -128,7 +148,7 @@
           <button class="btn__figurative-connection safety__btn_l">Заказать обратный звонок</button>
           <button class="btn__write-to safety__btn_s">Написать нам</button>
         </div>
-        <img class="sadety__main-illustration" src="./image/ill7.png" alt="Специалист">
+        <img class="safety__main-illustration" src="./image/ill7.png" alt="Специалист">
       </section>
       <section class="benefit">
         <h2 class="benefit__title">Чем аутсорс выгоднее штаного айтишника?</h2>
@@ -223,18 +243,64 @@
           </div>
           <div class="popup-callback__input-box">
             <p class="popup-callback__appellation">Удобное врмя для звонка:</p>
-            <input type="text" class="popup-callback__convenient popup__input">
+            <input type="time" class="popup-callback__convenient popup__input">
           </div>
         </div>
         <div class="popup-callback__confirm">
           <input class="popup-callback__chekbox" type="checkbox" checked>
-          <p class="popup-callback__policy">Даю согласие на обработку персональных данных в соотвествии с <span>политикой
+          <p class="popup-callback__policy">Даю согласие на обработку персональных данных в соотвествии с
+            <span>политикой
               конфиденциальности</span></p>
         </div>
-        <button class="popup-callback__btn">Отправить</button>
+        <button type="submit" class="popup-btn popup-callback__btn">Отправить</button>
       </div>
     </div>
-    <div class="popup popup"></div>
+    <div class="popup popup-message">
+      <div class="popup__case popup__case-message">
+        <button class="popup__close" aria-label="Закрыть"></button>
+        <img src="./image/ill12.png" alt="Специалист" class="popup-message__img">
+        <div class="popup-message__title">Написать нашему специалисту</div>
+        <div class="popup-message__box">
+          <div class="popup-message__input-box">
+            <p class="popup-message__appellation">Ваше имя<span class="red-star">:</span></p>
+            <input type="text" class="popup-message__name popup__input">
+          </div>
+          <div class="popup-message__input-box">
+            <p class="popup-message__appellation">Название Вашей компании:</p>
+            <input type="text" class="popup-message__company popup__input">
+          </div>
+          <div class="popup-message__input-box">
+            <p class="popup-message__appellation">Ваш номер телефона<span class="red-star">:</span></p>
+            <input type="tel" class="popup-message__phone popup__input">
+          </div>
+          <div class="popup-message__input-box">
+            <p class="popup-message__appellation">Ваш e-mail<span class="red-star">:</span></p>
+            <input type="email" class="popup-message__email popup__input">
+          </div>
+          <div class="popup-message__input-box">
+            <p class="popup-message__appellation">Ваш запрос:</p>
+            <textarea rows="3" cols="20" class="popup-message__question popup__input"></textarea>
+          </div>
+        </div>
+        <div class="popup-message__confirm">
+          <input type="file" name="files[]" id="popup-message__input_1" class="popup-message__upload-input"
+            accept=".jpg, .jpeg, .png, .gif, .bmp, .doc, .docx, .xls, .xlsx, .txt, .tar, .zip, .7z, .7zip" multiple>
+          <label class="popup-message__upload-label" for="popup-message__input_1">
+            <img class="popup-message__upload-icon">
+            <span class="popup-message__upload-text">Прикрепить файл</span>
+          </label>
+          <p class="popup-message__answer">Ответ придёт в течении двух рабочих дней, если вопрос требует времени на
+            изучение.
+            Вы также можете написать сразу на почту:<a class="popup-message__email" href="mailto:info@spsyst.com">
+              info@spsyst.com</a>
+          </p>
+          <input class="popup-message__chekbox" type="checkbox" checked>
+          <p class="popup-message__policy">Даю согласие на обработку персональных данных в соотвествии с <span>политикой
+              конфиденциальности</span></p>
+        </div>
+        <button type="submit" class="popup-btn popup-message__btn">Отправить</button>
+      </div>
+    </div>
   </div>
 
 </body>

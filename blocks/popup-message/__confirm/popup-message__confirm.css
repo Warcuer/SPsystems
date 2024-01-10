@@ -1,0 +1,7 @@
+.popup-message__confirm{
+  display: flex;
+  width: 580px;
+  margin-left: 108px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

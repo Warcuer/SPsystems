@@ -1,0 +1,13 @@
+.popup-message__upload-text{
+  text-decoration: underline;
+}
+
+.popup-message__upload-text:before{
+  content: '';
+  background-image: url(../../../image/icon/skrepka.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 5px;
+  padding: 10px;
+}

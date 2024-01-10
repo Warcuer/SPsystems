@@ -4,3 +4,15 @@
   margin: 0 auto;
   position: relative;
 }
+
+@media (max-width:1601px) {
+  .outsourcing{
+    width: calc(100% - 80px * 2) ;
+  }
+}
+
+@media (max-width:1281px) {
+  .outsourcing{
+    width: calc(100% - 50px * 2) ;
+  }
+}

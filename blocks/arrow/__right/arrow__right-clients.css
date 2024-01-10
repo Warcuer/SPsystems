@@ -7,3 +7,15 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media (max-width: 1601px) {
+  .arrow__right-clients {
+    right: 15%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .arrow__right-clients {
+    right: 7%;
+  }
+}

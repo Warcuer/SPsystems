@@ -1,0 +1,26 @@
+.popup-message__upload-label {
+  font-size: 1em;
+  font-family: 'Myriad Pro';
+  font-weight: 400;
+  margin-top: 5px;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.popup-message__upload-label .popup-message__upload-text,
+.popup-message__upload-label  path {
+  transition: .25s ease;
+}
+
+.popup-message__upload-label:hover .popup-message__upload-text {
+  color: #58862D;
+}
+
+.popup-message__upload-label:hover path {
+  fill: #58862D;
+}
+
+.popup-message__upload-label:hover {
+  border: 1px solid #58862D;
+  border-radius: 5px;
+}

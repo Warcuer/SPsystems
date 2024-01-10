@@ -5,3 +5,10 @@
   font-size: 1.563em;
   margin-bottom: 40px;
 }
+
+@media (max-width: 1024px) {
+  .outsourcing__partners{
+    font-size: 1.2em;
+    column-gap: 100px;
+  }
+}

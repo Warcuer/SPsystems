@@ -14,3 +14,10 @@
   background-color: #fff;
   color: #006ace;
 }
+
+@media (max-width:1024px) {
+  .header__btn{
+    width: 115px;
+    height: 35px;
+  }
+}

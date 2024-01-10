@@ -10,3 +10,15 @@
   align-content: center;
   justify-content: space-evenly;
 }
+
+@media (max-width: 1280px) {
+  .safety{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .safety{
+    height: 600px;
+  }
+}

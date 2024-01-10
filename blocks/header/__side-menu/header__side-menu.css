@@ -1,0 +1,22 @@
+.header__side-menu {
+  display: none;
+}
+
+.header__side-menu:checked~.header__navigation {
+  max-height: 100%;
+}
+
+.header__side-menu:checked~.header__hamb .header__hamb-line {
+  background: #fff;
+  /* background-color: #006ace; */
+}
+
+.header__side-menu:checked~.header__hamb .header__hamb-line:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.header__side-menu:checked~.header__hamb .header__hamb-line:after {
+  transform: rotate(45deg);
+  top: 0;
+}

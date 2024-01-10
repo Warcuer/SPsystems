@@ -1,9 +1,42 @@
 .header {
-  width: calc(100% - 215px * 2) ;
+  width: calc(100% - 215px * 2);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 33px;
+}
+
+@media (max-width: 1601px) {
+  .header {
+    width: calc(100% - 80px * 2);
+  }
+}
+
+@media (max-width: 1280px) {
+  .header {
+    width: calc(100% - 50px * 2);
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    width: calc(100% - 25px * 2);
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    background-color: #fff;
+    /* position: sticky;
+    top: 25px; */
+    width: 100%;
+  }
+
+  .header a {
+    background-color: transparent;
+    color: #006ace;
+  }
 }

@@ -13,3 +13,9 @@
   background-position: center;
   padding-right: 25px;
 }
+
+@media (max-width: 1024px) {
+  .outsourcing__list-item{
+    font-size: 1.2em;
+  }
+}

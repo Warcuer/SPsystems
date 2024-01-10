@@ -1,3 +1,22 @@
 .about-us__info-box{
   width: 780px;
+  margin-left: 800px;
+}
+
+@media (max-width: 1601px) {
+  .about-us__info-box{
+    margin-left: 650px;
+  }
+}
+
+@media (max-width: 1601px) {
+  .about-us__info-box{
+    margin-left: 550px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-us__info-box{
+    margin-left: 0px;
+  }
 }

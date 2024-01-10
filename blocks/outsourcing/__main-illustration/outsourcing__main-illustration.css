@@ -1,7 +1,23 @@
-.outsourcing__main-illustration{
+.outsourcing__main-illustration {
   position: absolute;
   right: 0;
   bottom: 0;
   width: 462px;
   height: 523px;
+}
+
+@media (max-width:1281px) {
+  .outsourcing__main-illustration {
+    width: 400px;
+    height: 450px;
+    right: -40px;
+  }
+}
+
+@media (max-width:1024px) {
+  .outsourcing__main-illustration {
+    width: 340px;
+    height: 400px;
+    right: -30px;
+  }
 }

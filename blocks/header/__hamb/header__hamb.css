@@ -1,0 +1,13 @@
+.header__hamb {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .header__hamb {
+    cursor: pointer;
+    float: left;
+    padding: 40px 20px;
+    display: block;
+    position: absolute;
+  }
+}
