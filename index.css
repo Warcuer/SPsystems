@@ -3,17 +3,6 @@
 @import url(./vendor/fonts/myriadpro.css);
 /* ОСНОВНАЯ СТРАНИЦА */
 @import url(./blocks/page-container/page-container.css);
-/* MOBILE-MENU */
-/* @import url(./blocks/menu-wrap/menu-wrap.css);
-@import url(./blocks/menu-wrap/__menu/menu-wrap__menu.css);
-@import url(./blocks/menu-wrap/__logo/menu-wrap__logo.css);
-@import url(./blocks/menu-wrap/__navigation/menu-wrap__navigation.css);
-@import url(./blocks/menu-wrap/__side-menu/menu-wrap__side-menu.css);
-@import url(./blocks/menu-wrap/__hamb/menu-wrap__hamb.css);
-@import url(./blocks/menu-wrap/__hamb-line/menu-wrap__hamb-line.css);
-@import url(./blocks/menu-wrap/__list/menu-wrap__list.css);
-@import url(./blocks/menu-wrap/__list-item/menu-wrap__list-item.css); */
-@import url(./blocks/menu-wrap/__btn/menu-wrap__btn.css);
 /* HEADER */
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__menu/header__menu.css);
