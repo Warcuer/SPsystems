@@ -2,3 +2,10 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width:900px) {
+  .header__contact{
+    position: absolute;
+    right: 20px;
+  }
+}

@@ -1,13 +1,12 @@
-.header__navigation {
-  max-height: none;
-
-  /* top: 25px; */
-  position: relative;
-  float: left;
-  width: fit-content;
-}
-
 @media (max-width: 900px) {
+  .header__navigation {
+    max-height: none;
+    top: 25px;
+    position: relative;
+    float: left;
+    width: fit-content;
+  }
+
   .header__navigation {
     width: 30%;
     height: 100%;
