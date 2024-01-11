@@ -15,7 +15,7 @@
     padding-top: 230px;
     position: fixed;
     background-color: #ffffff;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .header__navigation {

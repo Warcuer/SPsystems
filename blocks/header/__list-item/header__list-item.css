@@ -1,3 +1,7 @@
+.header__list-item{
+  position: relative;
+}
+
 .header__list-item:after{
   content: '';
   background-image: url(../../../image/icon/galochka.png);
@@ -11,7 +15,14 @@
   padding: 0;
 }
 
-.header__list-item a:hover{
-  transition: .8s;
+.header__list-item a{
   color:#006ace;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header__list-item a:hover, a:focus{
+  transition: .8s;
+  
+  border-bottom: 1px solid gray;
 }

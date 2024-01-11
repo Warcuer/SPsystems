@@ -1,0 +1,33 @@
+.header__dropdown{
+  visibility: hidden;
+  position: absolute;
+  left: 6px;
+  padding-top: 15px;
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+  background-color: transparent;
+  width: 312px;
+  transform: translateY(-25%);
+  transition: transform 0.3s ease-in-out;
+  /* overflow: auto; */
+  box-shadow: 3px 20px 20px 1px rgb(52 87 215 / 9%);
+  z-index: 1;
+}
+
+.show{
+  transform: translateY(0%);
+  visibility: visible;
+}
+
+@media (max-width: 900px) {
+  .header__dropdown{
+    padding: 0;
+    left: 150%;
+    transform: translateX(25%);
+  }
+
+  .show{
+    transform: translateX(0%);
+  }
+}

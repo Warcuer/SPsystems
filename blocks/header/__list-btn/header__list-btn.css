@@ -1,0 +1,14 @@
+.header__list-btn {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.header__list-btn:focus{
+  color:#006ace;
+}
+
+.header__list-btn:hover {
+  color: #006ace;
+  transition: .8s;
+}
