@@ -12,19 +12,40 @@
   margin: 0 auto;
 }
 
+#scrollTopBtn {
+  border-radius: 50%;
+  border: none;
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
 
+#scrollTopBtn.show {
+  opacity: 1;
+}
+
+#scrollTopBtn:hover {
+  color: #fff;
+  transition: .8s;
+  background-color: #006ace;
+}
 
 body {
   --sb-track-color: #ffffff;
   --sb-thumb-color: #006ace;
   --sb-size: 10px;
 
-  scrollbar-color: var(--sb-thumb-color) 
-                   var(--sb-track-color);
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
 }
 
 body::-webkit-scrollbar {
-  width: var(--sb-size) 
+  width: var(--sb-size)
 }
 
 body::-webkit-scrollbar-track {
@@ -36,4 +57,4 @@ body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
   border-radius: 10px;
   border: 1px solid #ffffff;
-  }
+}

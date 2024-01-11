@@ -14,7 +14,7 @@ document.addEventListener('click', (e) => {
 });
 
 dropList.forEach((list, index) => {
-  list.addEventListener('click', () => {
+  list.addEventListener('click', (e) => {
     dropLink.forEach((link, linkIndex) => {
       if (index === linkIndex) {
         link.classList.toggle('show');
