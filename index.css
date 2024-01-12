@@ -101,16 +101,24 @@
 @import url(./blocks/work/__button/work__button.css);
 @import url(./blocks/work/__btn/work__btn_l.css);
 @import url(./blocks/work/__btn/work__btn_s.css);
+/* SLIDER */
+@import url(./blocks/slider/slider.css);
+@import url(./blocks/slider/__track/slider__track.css);
+@import url(./blocks/slider/__slide/slider__slide.css);
 /* CLIENTS */
 @import url(./blocks/clients/clients.css);
 @import url(./blocks/clients/__title/clients__title.css);
 @import url(./blocks/clients/__subtitle/clients__subtitle.css);
-@import url(./blocks/clients/__gallery/clients__gallery.css);
-@import url(./blocks/clients/__img/clients__img.css);
+@import url(./blocks/clients/__slider/clients__slider.css);
+@import url(./blocks/clients/__slide-track/clients__slide-track.css);
+@import url(./blocks/clients/__slide/clients__slide.css);
+@import url(./blocks/clients/__img/clients__logo.css);
 /* PORTFOLIO */
 @import url(./blocks/portfolio/portfolio.css);
 @import url(./blocks/portfolio/__title/portfolio__title.css);
-@import url(./blocks/portfolio/__gallery/portfolio__gallery.css);
+@import url(./blocks/portfolio/__slider/portfolio__slider.css);
+@import url(./blocks/portfolio/__slide-track/portfolio__slide-track.css);
+@import url(./blocks/portfolio/__slide/portfolio__slide.css);
 /* CONTACT */
 @import url(./blocks/contact/contact.css);
 @import url(./blocks/contact/__title/contact__title.css);

@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Функция для плавной прокрутки вверх
 function scrollToTop() {
-  const scrollStep = -window.scrollY / (500 / 15); // 500 - время анимации (миллисекунды), 15 - количество кадров в секунду
+  const scrollStep = -window.scrollY / (2000 / 60); // 500 - время анимации (миллисекунды), 15 - количество кадров в секунду
   const scrollInterval = setInterval(function() {
     if (window.scrollY !== 0) {
       window.scrollBy(0, scrollStep);

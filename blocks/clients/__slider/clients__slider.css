@@ -1,0 +1,30 @@
+/* .clients__slider {
+  background: white;
+  box-shadow: 0px 0px 0px -5px rgba(0, 0, 0, .125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+}
+
+.clients__slider::after,
+.clients__slider::before {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.clients__slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.clients__slider::before {
+  left: 0;
+  top: 0;
+} */

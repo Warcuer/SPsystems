@@ -1,0 +1,10 @@
+.portfolio__slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio__slide p {
+  width: 400px;
+  font-size: 1em;
+}

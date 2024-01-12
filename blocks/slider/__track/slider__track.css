@@ -1,0 +1,5 @@
+.clients__slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(150px * 14);
+}
